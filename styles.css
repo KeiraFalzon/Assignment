@@ -23,7 +23,7 @@ hr{
 }
 /************************************************************** INTRO *****************************************************************************/
 .intro{
-    background-image: url(images/leaves.jpg);
+    background-image: url(https://imin-malta.com/wp-content/uploads/2023/04/property-prices-218336722.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -32,10 +32,6 @@ hr{
     width: auto;
     height: 100vh; /*viewport/window height*/
     display: flex;
-
-    /*puts intro in front of the navbar*/
-    z-index: 1100;
-    position: relative;
 }
 
 .intro-story{
@@ -235,7 +231,7 @@ hr{
 }
 
 .navbar-logo{
-    height: 100px;
+    height: 80px;
     padding: 15px;
 }
 
