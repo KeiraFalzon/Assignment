@@ -34,6 +34,18 @@ hr{
     display: flex;
 }
 
+.intro-1{
+    background-image: url(https://imin-malta.com/wp-content/uploads/2023/04/property-prices-218336722.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    width: 100vw; /*viewport/window width*/
+    width: auto;
+    height: 55vh; /*viewport/window height*/
+    display: flex;
+}
+
 .intro-story{
     z-index: 900;
     height: 75vh;
@@ -126,7 +138,6 @@ hr{
 
 .row{
     display: flex;
-    flex-wrap: wrap; /*if the content doesn't fit in the line, move it to the next line*/
     gap: 50px;
 }
 
@@ -144,21 +155,16 @@ hr{
     width: calc(100%);
 }
 
+.featured .card{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
 /*********************************************************** MAIN CONTENT *************************************************************************/
 
 .main-content{
     margin-top: 100px;
-}
-
-.vertical-title{
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    
-    transform-origin: 0 0; /*changes tranformation anchor point*/
-    transform: rotate(90deg) translateY(5px);
-    
-    position: absolute; /*disconnect the h3 from the content*/
 }
 
 /************************************************************* FOOTER *****************************************************************************/
@@ -244,9 +250,6 @@ hr{
     align-items: center
 }
 
-.navbar-brand{
-    align-content: center;
-}
 
 .navbar-logo{
     height: 80px;
@@ -309,24 +312,10 @@ hr{
     margin: auto;
 }
 
-.social-link svg{
-    display: block;
-    
-    font-size: 30px;
-    
-    width: 1em;
-    height: 1em;
-    
-    transition-property: fill;
-    transition-duration: 0.15s;
-}
-
-.social-link:hover {
-    background-color: #000;
-}
-
-.social-link:hover svg{
-    fill: #fff;
+.services-text{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 40px;
 }
 
 /********************************************************** CONTACT FORM **************************************************************************/
