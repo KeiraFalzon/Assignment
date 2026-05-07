@@ -35,7 +35,7 @@ hr{
 }
 
 .intro-1{
-    background-image: url(https://imin-malta.com/wp-content/uploads/2023/04/property-prices-218336722.jpeg);
+    background-image: url(https://www.simonmamo.com/wp-content/uploads/2024/03/iconico1_a_person_looking_to_purchase_a_apartment_in_malta_lo_2d6c85e6-4868-47c4-9860-8e765ac1b94b_2-1024x574.webp);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -112,6 +112,11 @@ hr{
     color: black;
     transition: color 0.3s;
 } 
+
+.text-regular h2{
+    display: flex;
+    margin: auto;
+}
 
 .text-hover:hover{
     color: #D9D9D9;
@@ -310,6 +315,11 @@ hr{
     padding-right: 30%;
     display: block;
     margin: auto;
+}
+
+.contact-hover:hover{
+    background-color: #142222;
+    color: #ffffff;
 }
 
 .services-text{
