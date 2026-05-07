@@ -174,10 +174,21 @@ hr{
     gap: 50px;
 }
 
+.row-1{
+    display: flex;
+justify-content: center;
+}
+
 /*Targets class="card" inside class="row"*/
 
 .two-columns .card{
     width: calc((100% - 50px) / 2);
+}
+
+.two-columns-1 .card{
+    width: calc(56.5% / 2);
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .three-columns .card{
@@ -186,6 +197,13 @@ hr{
 
 .one-column .card{
     width: calc(100%);
+}
+
+.one-column-1 .card{
+    width: calc(60%);
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .featured .card{
