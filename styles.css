@@ -21,6 +21,10 @@ hr{
     margin-top: 50px !important;
     margin-bottom: 50px !important; /*!important will not get replaced*/
 }
+
+.divider{
+    border: none;
+}
 /************************************************************** INTRO *****************************************************************************/
 .intro{
     background-image: url(https://imin-malta.com/wp-content/uploads/2023/04/property-prices-218336722.jpeg);
@@ -140,6 +144,12 @@ hr{
     color: #D9D9D9;
 }
 
+.about-title{
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 /******************************************************** WEBSITE CONTAINER ***********************************************************************/
 
 .container{
@@ -188,6 +198,13 @@ hr{
 
 .main-content{
     margin-top: 100px;
+}
+
+.main-content-1{
+    margin-top: 50px;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: justify;
 }
 
 /************************************************************* FOOTER *****************************************************************************/
