@@ -35,14 +35,31 @@ hr{
 }
 
 .intro-1{
-    background-image: url(https://www.simonmamo.com/wp-content/uploads/2024/03/iconico1_a_person_looking_to_purchase_a_apartment_in_malta_lo_2d6c85e6-4868-47c4-9860-8e765ac1b94b_2-1024x574.webp);
+    background-image: url(https://www.simonmamo.com/wp-content/uploads/2024/03/iconico1_a_person_looking_to_purchase_a_apartment_in_malta_lo_2d6c85e6-4868-47c4-9860-8e765ac1b94b_2-1366x766.webp);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     
     width: 100vw; /*viewport/window width*/
     width: auto;
-    height: 55vh; /*viewport/window height*/
+    height: 65vh; /*viewport/window height*/
+    display: flex;
+}
+
+.intro-story{
+    z-index: 900;
+    height: 75vh;
+}
+
+.intro-2{
+    background-image: url(https://iurismalta.com/wp-content/uploads/2019/07/Construction-Property-Site-IURIS-MALTA.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    width: 100vw; /*viewport/window width*/
+    width: auto;
+    height: 65vh; /*viewport/window height*/
     display: flex;
 }
 
@@ -72,6 +89,7 @@ hr{
     line-height: 1;
     font-size: 20px;
 }
+
 
 /************************************************************** CARD *****************************************************************************/
 .card{
