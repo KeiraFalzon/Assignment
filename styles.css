@@ -167,6 +167,7 @@ hr{
     margin: auto;
 }
 
+
 /*************************************************************** GRID *****************************************************************************/
 
 .row{
@@ -177,6 +178,12 @@ hr{
 .row-1{
     display: flex;
 justify-content: center;
+}
+
+.row-2{
+    display: flex;
+padding-left: 560px;
+font-size: 20px;
 }
 
 /*Targets class="card" inside class="row"*/
