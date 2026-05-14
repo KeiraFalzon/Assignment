@@ -186,6 +186,16 @@ padding-left: 560px;
 font-size: 20px;
 }
 
+.row-3{
+    display: flex;
+justify-content: center;
+background-color: #D9D9D9;
+width: 40%;
+padding: 30px;
+margin: auto;
+border-radius: 50px;
+}
+
 /*Targets class="card" inside class="row"*/
 
 .two-columns .card{
@@ -391,13 +401,18 @@ font-size: 20px;
 /********************************************************** CONTACT FORM **************************************************************************/
 
 form{
-    margin-bottom: 100px;
     margin-top: 10px;
 }
 
 .form-element{
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    flex-direction: column;
+  gap: 6px;
+}
+
+.form-element1{
+    display: flex;
 }
 
 .form-element label{
@@ -412,11 +427,17 @@ form{
     display: block;
     flex: 1;
     
-    padding: 5px;
+    padding: 10px;
 }
 
 .form-element button{
     flex: 0;
     width: 100px;
     margin-right: 10px;
+}
+
+.box{
+    display: block;
+padding: 20px;
+padding-left: 550px;
 }
