@@ -103,6 +103,23 @@ hr{
     text-decoration: none;
 }
 
+.card1{
+    display: flex;
+    margin: 50px;
+    text-decoration: none;
+    height: 500px;
+    overflow: hidden;
+        object-fit: cover;
+}
+
+.card2{
+    font-size: 10px;
+}
+
+.card3{
+    font-size: 12px;
+}
+
 .card-image{
     height: 500px;
     overflow: hidden; /*crops the extra content*/
@@ -196,6 +213,7 @@ padding: 30px;
 margin: auto;
 border-radius: 50px;
 }
+
 
 /*Targets class="card" inside class="row"*/
 
@@ -376,6 +394,7 @@ border-radius: 50px;
 }
 
 .contactbutton{
+    text-decoration: none;
     background-color: #177570;
     padding: 20px 10px;
     font-size: 20px;
@@ -389,6 +408,7 @@ border-radius: 50px;
 }
 
 .contact-hover:hover{
+    text-decoration: none;
     background-color: #142222;
     color: #ffffff;
 }
